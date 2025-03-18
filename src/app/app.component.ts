@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'projeto_imc';
+  imagem: string = '';
+
+  atualizarImagem(url: string){
+    this.imagem = url;
+  }
 }
