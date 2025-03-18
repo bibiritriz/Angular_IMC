@@ -1,0 +1,22 @@
+button{
+    background-color: #BE5985 !important;
+    border: none !important;
+    &:hover {
+        background-color: #EC7FA9 !important;
+        color: black;
+    }
+}
+
+.container{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
